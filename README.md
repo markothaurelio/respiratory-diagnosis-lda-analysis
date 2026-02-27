@@ -28,22 +28,22 @@ functions (LD1, LD2, LD3).
 
 ## Linear Discriminant Coefficients
 
-  Predictor           LD1       LD2       LD3
-  ------------------- --------- --------- ---------
-  Age                 0.018     0.016     -0.0426
-  Heart Rate          0.1296    -0.1806   1.0214
-  Body Temperature    1.2959    0.9414    0.0176
-  Oxygen Saturation   -0.8570   1.2327    0.1152
-  Systolic BP         0.0570    -0.0406   -0.0964
-  Diastolic BP        0.0033    -0.0603   0.0582
+| Predictor           | LD1     | LD2     | LD3     |
+|--------------------|---------|---------|---------|
+| Age                | 0.018   | 0.016   | -0.0426 |
+| Heart Rate         | 0.1296  | -0.1806 | 1.0214  |
+| Body Temperature   | 1.2959  | 0.9414  | 0.0176  |
+| Oxygen Saturation  | -0.8570 | 1.2327  | 0.1152  |
+| Systolic BP        | 0.0570  | -0.0406 | -0.0964 |
+| Diastolic BP       | 0.0033  | -0.0603 | 0.0582  |
 
 ## Proportion of Variance Explained
 
-  Linear Discriminant   Proportion of Trace
-  --------------------- ---------------------
-  LD1                   0.6308
-  LD2                   0.3383
-  LD3                   0.0309
+| Linear Discriminant | Proportion of Trace |
+|---------------------|---------------------|
+| LD1                 | 0.6308              |
+| LD2                 | 0.3383              |
+| LD3                 | 0.0309              |
 
 ![Image 001](images/image001.png)
 
@@ -67,9 +67,9 @@ The LDA model shows that **LD1 is the dominant discriminant**, clearly separatin
 
 ## Equality of Covariance (Box's M)
 
-  Statistic    Value   df   p-value
-  ------------ ------- ---- ---------
-  Chi-Square   618.8   63   2.2e-16
+| Statistic  | Value | df | p-value  |
+|------------|-------|----|----------|
+| Chi-Square | 618.8 | 63 | 2.2e-16  |
 
 Covariance matrices were not equal (assumption violated).
 
