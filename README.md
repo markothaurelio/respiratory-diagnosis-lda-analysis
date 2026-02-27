@@ -54,19 +54,14 @@ The LDA model shows that **LD1 is the dominant discriminant**, clearly separatin
 
 # Group Means (Standardized Predictors)
 
-  --------------------------------------------------------------------------
-  Diagnosis    Age     Heart Rate   Body Temp    O₂ Sat    Sys BP   Dia BP
-  ------------ ------- ------------ ------------ --------- -------- --------
-  Bronchitis   -0.03   -0.04        -0.21        -0.72     0.04     0.01
+## Group Means (Standardized Predictors)
 
-  Cold         -0.01   0.03         -1.27        1.19      -0.07    -0.02
-
-  Flu          0.05    -0.17        0.83         0.32      0        -0.02
-
-  Pneumonia    -0.04   1.18         0.94         -0.74     -0.10    0.09
-  --------------------------------------------------------------------------
-
-------------------------------------------------------------------------
+| Diagnosis   | Age  | Heart Rate | Body Temp | O₂ Sat | Sys BP | Dia BP |
+|------------|------|------------|-----------|--------|--------|--------|
+| Bronchitis | -0.03 | -0.04 | -0.21 | -0.72 | 0.04 | 0.01 |
+| Cold       | -0.01 | 0.03  | -1.27 | 1.19  | -0.07 | -0.02 |
+| Flu        | 0.05  | -0.17 | 0.83  | 0.32  | 0     | -0.02 |
+| Pneumonia  | -0.04 | 1.18  | 0.94  | -0.74 | -0.10 | 0.09 |
 
 # Assumption Checks
 
@@ -84,20 +79,20 @@ Covariance matrices were not equal (assumption violated).
 
 ## Confusion Matrix
 
-  Prediction  Reference   Bronchitis   Cold   Flu   Pneumonia
-  ----------------------- ------------ ------ ----- -----------
-  Bronchitis              215          0      41    11
-  Cold                    6            129    0     0
-  Flu                     46           0      181   8
-  Pneumonia               8            0      4     18
+| Prediction \ Reference | Bronchitis | Cold | Flu | Pneumonia |
+|------------------------|------------|------|-----|------------|
+| Bronchitis             | 215        | 0    | 41  | 11         |
+| Cold                   | 6          | 129  | 0   | 0          |
+| Flu                    | 46         | 0    | 181 | 8          |
+| Pneumonia              | 8          | 0    | 4   | 18         |
 
 ## Overall Performance
 
-  Metric     Value
-  ---------- ------------------
-  Accuracy   0.8141
-  95% CI     (0.7825, 0.8429)
-  p-value    2.2e-16
+| Metric   | Value |
+|----------|--------|
+| Accuracy | 0.8141 |
+| 95% CI   | (0.7825, 0.8429) |
+| p-value  | 2.2e-16 |
 
 ------------------------------------------------------------------------
 
@@ -105,20 +100,20 @@ Covariance matrices were not equal (assumption violated).
 
 ## Confusion Matrix
 
-  Prediction  Reference   Bronchitis   Cold   Flu   Pneumonia
-  ----------------------- ------------ ------ ----- -----------
-  Bronchitis              43           0      12    4
-  Cold                    0            34     0     0
-  Flu                     9            0      53    1
-  Pneumonia               7            0      1     2
+| Prediction \ Reference | Bronchitis | Cold | Flu | Pneumonia |
+|------------------------|------------|------|-----|------------|
+| Bronchitis             | 43         | 0    | 12  | 4          |
+| Cold                   | 0          | 34   | 0   | 0          |
+| Flu                    | 9          | 0    | 53  | 1          |
+| Pneumonia              | 7          | 0    | 1   | 2          |
 
 ## Overall Performance
 
-  Metric     Value
-  ---------- ------------------
-  Accuracy   0.7952
-  95% CI     (0.7257, 0.8538)
-  p-value    2.2e-16
+| Metric   | Value |
+|----------|--------|
+| Accuracy | 0.7952 |
+| 95% CI   | (0.7257, 0.8538) |
+| p-value  | 2.2e-16 |
 
 ------------------------------------------------------------------------
 
