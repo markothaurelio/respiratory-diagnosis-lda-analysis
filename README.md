@@ -5,16 +5,16 @@
 This project evaluates whether Linear Discriminant Analysis (LDA) can
 classify four respiratory illnesses using basic vital signs.
 
-Conditions classified: - Bronchitis\
-- Cold\
-- Flu\
+Conditions classified: - Bronchitis
+- Cold
+- Flu
 - Pneumonia
 
-Predictors used: - Age\
-- Heart Rate\
-- Body Temperature\
-- Oxygen Saturation\
-- Systolic Blood Pressure\
+Predictors used: - Age
+- Heart Rate
+- Body Temperature
+- Oxygen Saturation
+- Systolic Blood Pressure
 - Diastolic Blood Pressure
 
 Dataset: 2,000 simulated patient records
